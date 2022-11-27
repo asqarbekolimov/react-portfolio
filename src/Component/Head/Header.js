@@ -54,7 +54,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <section className="demo"></section>
     </>
   )
 }
