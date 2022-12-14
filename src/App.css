@@ -64,46 +64,66 @@ button {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
 }
-.btn_shadow:hover{
+
+.box_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
+.btn_shadow:hover {
   background: #ff014f;
   color: #ffffff;
   transform: translateY(-10px);
 }
-.row, .left, .right{
+
+.row,
+.left,
+.right {
   width: 50%;
 }
-.top{
+
+.top {
   margin-top: 80px;
 }
-section{
+
+section {
   padding: 0 25px;
 }
-.mtop{
+
+.mtop {
   margin-top: 40px;
 }
-.heading{
+
+.heading {
   margin: 50px 0 50px 0;
 }
-.heading h4{
+
+.heading h4 {
   color: #ff014f;
   letter-spacing: 2px;
   font-weight: 400;
 }
-.heading h1{
+
+.heading h1 {
   font-size: 60px;
   color: #3c3e41;
 }
-h1{
+
+h1 {
   color: #3c3e41;
 }
-.grid{
+
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
 }
-p{
+
+p {
   color: #3c3e41;
 }
-.text{
+
+.text {
   text-align: center;
 }
