@@ -127,3 +127,13 @@ p {
 .text {
   text-align: center;
 }
+
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e2e8ec;
+  margin-bottom: 20px;
+}
