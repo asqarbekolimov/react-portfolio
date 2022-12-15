@@ -77,9 +77,37 @@
     height: 450px;
     margin-top: 20%;
 }
-.hero .right_img img{
+
+.hero .right_img img {
     position: absolute;
     top: 0;
     right: 10%;
     width: 510px;
+}
+
+@media (max-width: 768px) {
+    .hero .right_img img {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        width: 92%;
+        height: 95%;
+    }
+
+    .hero .right,
+    .hero .left {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .hero .right_img {
+        width: 95%;
+        height: 54vh;
+    }
 }

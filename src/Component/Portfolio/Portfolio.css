@@ -154,3 +154,23 @@
 }
 
 /* ------------Modal popup */
+@media (max-width: 768px) {
+
+  .modal,
+  .overlay {
+    overflow: scroll;
+  }
+
+  .modal .modal-img {
+    margin: 50px 0 50px 0;
+  }
+
+  .modal-cont {
+    flex-direction: column-reverse;
+  }
+
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}

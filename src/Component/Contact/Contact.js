@@ -34,7 +34,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <section className='Contact' id='Contact'>
+      <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
             <h4>CONTACT</h4>
@@ -53,7 +53,7 @@ const Contact = () => {
                   <p>I am avaible freelancer work. Connect with me via and call in to my account</p>
                   <br />
                   <p>Phone: +998330708708</p>
-                  <p>Email: asqarbekolimov.dev@gmail.com</p> <br />
+                  <p>Email: mr.coder@gmail.com</p> <br />
                   <span>FIND WITH ME:</span>
                   <div className='button'>
                     <button className='btn_shadow'>

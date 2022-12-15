@@ -56,3 +56,19 @@
   margin-left: 15px;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .input {
+    width: 100%;
+  }
+}

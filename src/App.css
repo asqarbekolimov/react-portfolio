@@ -137,3 +137,18 @@ input {
   border: 1px solid #e2e8ec;
   margin-bottom: 20px;
 }
+
+footer {
+  margin: 20% 0 10% 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}
